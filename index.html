@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <!-- my css file -->
+    <link rel="stylesheet" href="./css/index.css" />
+    <!-- normalize -->
+    <link rel="stylesheet" href="./css/normalize.css">
+    <title>Weather App</title>
+  </head>
+  <body>
+   <main>
+        <div class="container">
+            <h1 class="text-center"> This is Weather App </h1>
+            <h5 class="text-center">Type The name of Your City</h5>
+            <div class="card">
+                <div class="search">
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Type The Place ..."
+                            aria-label="Recipient's username" aria-describedby="button-addon2" />
+                        <button class="btn btn-outline-primary" type="button" id="button-addon2">
+                            Search
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="weather text-center mt-5">
+                <div class="place">
+                    <h3 class="city"></h3>
+                    <h3 class="temp"></h3>
+                </div>
+                <div class="g1">
+                    <div class="description"></div>
+                    <img src="" alt="" class="icon">
+                </div>
+                <div class="humidity"></div>
+                <div class="wind"></div>
+            </div>
+        </div>
+   </main>
+  </body>
+  <!-- bootstrap -->
+  <script src="./js/bootstrap.min.js"></script>
+  <!-- my js file -->
+  <script src="./js/index.js"></script>
+</html>

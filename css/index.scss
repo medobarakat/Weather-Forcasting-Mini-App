@@ -1,0 +1,63 @@
+:root {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+body {
+  background-image: url(https://source.unsplash.com/1600x900/?landscape);
+  background-size: cover;
+}
+h5 {
+  margin-top: 2rem;
+  color: var(--bs-red);
+}
+h1 {
+  color: var(--bs-blue);
+  font-weight: bold;
+}
+h3 {
+  margin: 1rem 0rem;
+}
+input {
+  padding: 0;
+}
+.g1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main {
+  height: 80%;
+  transition: all 0.4s;
+  .container {
+    background-color: #eaeaeaea;
+    border-radius: 4rem;
+    padding: 1rem 1rem;
+    margin-top: 2rem;
+    max-width: 60%;
+    .form-control {
+      border-radius: 1rem !important;
+    }
+
+    .card {
+      max-width: 60%;
+      display: block;
+      margin: auto;
+      margin-top: 6rem;
+    }
+    .weather {
+      h3 {
+        font-size: 2rem;
+        font-weight: 500;
+      }
+      div {
+        margin: 1rem 0rem;
+        font-size: 1.5rem;
+      }
+      .place {
+        display: inline-block;
+      }
+    }
+  }
+}
