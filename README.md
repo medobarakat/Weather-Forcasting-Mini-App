@@ -6,7 +6,6 @@
 
 ## Html , Css , JavaScript ,Async JavaScript
 
-## for more contact me on
 
 ## ahmedbarakat2401@gmail.com
 
