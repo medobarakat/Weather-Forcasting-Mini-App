@@ -4,7 +4,7 @@
 
 ##  made With :
 
-## Html , Css , JavaScript ,Async JavaScript
+## Html , Css , JavaScript , JavaScript
 
 
 ## ahmedbarakat2401@gmail.com
