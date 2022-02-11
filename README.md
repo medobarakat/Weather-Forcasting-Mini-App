@@ -1,6 +1,6 @@
 # Weather-Forcasting-Mini-App
 
-## this is a simple weather forcasting app
+## this is a  weather forcasting app
 
 ##  made With 
 
