@@ -2,7 +2,7 @@
 
 ## this is a  weather forcasting app
 
-##  made With 
+##  was built with help of 
 
 ## Html , Css , JavaScript , JavaScript
 
